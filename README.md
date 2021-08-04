@@ -86,10 +86,6 @@ SynthFlatbutton(
   {
     //write your function definition
   },
-  icon: Icon(
-    Icons.add,
-    color: primarySynthWhite100,
-    ),
  )
 ```
 
