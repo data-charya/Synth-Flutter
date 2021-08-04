@@ -14,27 +14,173 @@
 [![Flutter action](https://github.com/data-charya/Synth-Flutter/actions/workflows/dart.yml/badge.svg)](https://github.com/data-charya/Synth-Flutter/actions/workflows/dart.yml)
 
 </div>
+<hr>
 
-## Features
+# Synth Neumorphism Components
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+My take on CRED's Synth Design System. I tried to recreate the components as close to the real thing as possible and will be adding more components down the line.
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+<br>
 
 ## Usage
+Add the plugin to your pubspec.yaml using :
+```dart
+flutter pub add synth
+```
+Import the package and use the components, Its that simple !
+```dart
+SynthSoftbutton(
+  text: 'Your Text',
+  width: 100,
+  height: 50,
+  onPressed: () 
+  {
+    //write your function definition
+  },
+ )
+```
+## Buttons
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+### Softbutton
+<hr>
 
 ```dart
-const like = 'sample';
+SynthSoftbutton(
+  text: 'Your Text',
+  width: 100,
+  height: 50,
+  onPressed: () 
+  {
+    //write your function definition
+  },
+ )
 ```
 
-## Additional information
+<br>
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+### Drawable Button
+<hr>
+
+```dart
+SynthDrawablebutton(
+  text: 'Your Text',
+  width: 100,
+  height: 50,
+  onPressed: () 
+  {
+    //write your function definition
+  },
+ )
+```
+<br>
+
+### Flat Button
+<hr>
+
+```dart
+SynthFlatbutton(
+  text: 'Your Text',
+  width: 100,
+  height: 50,
+  onPressed: () 
+  {
+    //write your function definition
+  },
+  icon: Icon(
+    Icons.add,
+    color: primarySynthWhite100,
+    ),
+ )
+```
+
+<br>
+
+### Flat Drawable Button
+<hr> 
+
+```dart
+SynthFlatbutton(
+  text: 'Your Text',
+  width: 100,
+  height: 50,
+  onPressed: () 
+  {
+    //write your function definition
+  },
+ )
+```
+
+<br>
+
+### Img Button
+<hr>
+
+```dart
+NeuImgbutton(
+  radius: 80,
+  onPressed: () 
+  {
+    //write your function definition
+  },
+  icon: Icon(
+    Icons.arrow_back_ios_new_rounded,
+  ),
+ )
+```
+
+<br>
+
+### Elevated View
+<hr>
+
+```dart
+ElevatedView(
+   width: 300,
+   height: 100,
+   child: Center(
+   child: Text(
+   'synth',
+   style: TextStyle(
+   fontSize: 25,
+   fontFamily: 'Gilroy',
+   fontWeight: FontWeight.w900,
+   color: primarySynthCopper400,
+   ),
+  ),
+ ),
+)
+```
+
+<br>
+
+### Circular Checkbox
+<hr>
+
+```dart
+SynthCircularcheckbox(
+  width: 30,
+  height: 30,
+  onPressed: () 
+  {
+    //write your function definition
+  },
+ )
+```
+
+<br>
+
+### RoundedRect Checkbox
+<hr>
+
+```dart
+ SynthRoundedRectcheckbox(
+   width: 30,
+   height: 30,
+   onPressed: () 
+   {
+      //write your function definition here
+   },
+  )
+```
+
+<br>
