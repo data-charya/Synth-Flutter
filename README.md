@@ -44,6 +44,8 @@ SynthSoftbutton(
 ### Softbutton
 <hr>
 
+![1](https://user-images.githubusercontent.com/62848565/128127176-0f50a578-1ee7-47a4-b67d-4f72a2f14161.png)
+
 ```dart
 SynthSoftbutton(
   text: 'Your Text',
@@ -61,6 +63,8 @@ SynthSoftbutton(
 ### Drawable Button
 <hr>
 
+![2](https://user-images.githubusercontent.com/62848565/128127187-51f5ced1-3ee0-4976-80d6-fd885e0b72bf.png)
+
 ```dart
 SynthDrawablebutton(
   text: 'Your Text',
@@ -76,6 +80,8 @@ SynthDrawablebutton(
 
 ### Flat Button
 <hr>
+
+![3](https://user-images.githubusercontent.com/62848565/128127202-784ff6fb-dcd4-4099-a81d-0d6f64542158.png)
 
 ```dart
 SynthFlatbutton(
@@ -93,6 +99,8 @@ SynthFlatbutton(
 
 ### Flat Drawable Button
 <hr> 
+
+![4](https://user-images.githubusercontent.com/62848565/128127223-5227e45a-62f7-4016-8e99-69aa1363a08b.png)
 
 ```dart
 SynthFlatDrawablebutton(
@@ -116,6 +124,8 @@ SynthFlatDrawablebutton(
 ### Img Button
 <hr>
 
+![5](https://user-images.githubusercontent.com/62848565/128127242-ec0c5bb6-3ae1-4531-b951-88ea34def291.png)
+
 ```dart
 NeuImgbutton(
   radius: 80,
@@ -133,6 +143,8 @@ NeuImgbutton(
 
 ### Elevated View
 <hr>
+
+![6](https://user-images.githubusercontent.com/62848565/128127250-52dbe753-cffb-4de2-af7a-a33af6ae5e55.png)
 
 ```dart
 ElevatedView(
@@ -157,6 +169,8 @@ ElevatedView(
 ### Circular Checkbox
 <hr>
 
+![7](https://user-images.githubusercontent.com/62848565/128127263-e559d648-8689-4079-b908-36e359f10701.png)
+
 ```dart
 SynthCircularcheckbox(
   width: 30,
@@ -172,6 +186,8 @@ SynthCircularcheckbox(
 
 ### RoundedRect Checkbox
 <hr>
+
+![8](https://user-images.githubusercontent.com/62848565/128127271-3784936b-edd3-4e3a-85f1-daa3e886e4e0.png)
 
 ```dart
  SynthRoundedRectcheckbox(
