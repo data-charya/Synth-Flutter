@@ -1,7 +1,6 @@
 library synth;
 
 import 'package:flutter/material.dart';
-import 'package:synth/src/color_page.dart';
 
 //Softbutton Component
 class SynthSoftbutton extends StatelessWidget {
