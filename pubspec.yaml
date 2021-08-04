@@ -1,6 +1,6 @@
 name: synth
 description: Creds Synth components for flutter.
-version: 0.0.1
+version: 1.0.3
 homepage: https://github.com/data-charya/Synth-Flutter
 
 environment:
@@ -15,20 +15,14 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
-
 flutter:
   plugin:
     platforms:
       android:
         package: io.shanwill.synth
-        pluginClass: Synth
+        pluginClass: SynthPlugin
       ios:
-        pluginClass: Synth
-      macos:
-        pluginClass: Synth
-      # web:
-      #   pluginClass: Synth
-      #   fileName: hello_web.dart
+        pluginClass: SynthPlugin
 
   assets:
     - assets/images/
@@ -41,4 +35,3 @@ flutter:
           weight: 900
         - asset: fonts/Gilroy-SemiBold.ttf
           weight: 600
-  

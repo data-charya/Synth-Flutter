@@ -7,4 +7,4 @@ version:
   revision: f18b9281c2280c2646aa3d4348715ed5bb9446c8
   channel: beta
 
-project_type: plugin
+project_type: app
