@@ -1,6 +1,19 @@
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+
+<div align="center">
+
+  ![Logo](https://user-images.githubusercontent.com/62848565/128122647-f56c9c5a-54ef-4f6e-b6ad-65964d345251.png)
+  
+</div>
+<div align="center">
+
+
+![flutter](https://img.shields.io/badge/Flutter%20ver.-2.4.0-blue?style=for-the-badge&logo=flutter)
+[![GitHub license](https://img.shields.io/badge/license-MIT-red.svg?style=for-the-badge)](https://github.com/data-charya/Elemental/blob/master/LICENSE)
+[![Google Play](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://play.google.com/store/apps/details?id=io.shanwill.elemental)
+[![Flutter action](https://github.com/data-charya/Synth-Flutter/actions/workflows/dart.yml/badge.svg)](https://github.com/data-charya/Synth-Flutter/actions/workflows/dart.yml)
+
+</div>
 
 ## Features
 
