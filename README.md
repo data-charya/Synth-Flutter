@@ -99,7 +99,7 @@ SynthFlatbutton(
 <hr> 
 
 ```dart
-SynthFlatbutton(
+SynthFlatDrawable(
   text: 'Your Text',
   width: 100,
   height: 50,
