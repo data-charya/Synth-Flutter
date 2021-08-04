@@ -1,7 +1,7 @@
 name: synth
 description: Creds Synth components for flutter.
 version: 0.0.1
-homepage:
+homepage: https://github.com/data-charya/Synth-Flutter
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -29,7 +29,7 @@ flutter:
       # web:
       #   pluginClass: Synth
       #   fileName: hello_web.dart
-      
+
   assets:
     - assets/images/
   fonts:

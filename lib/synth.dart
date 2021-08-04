@@ -58,7 +58,7 @@ class SynthSoftbutton extends StatelessWidget {
                       ],
                       begin: Alignment.bottomLeft,
                       end: Alignment.bottomRight,
-                      stops: [0.95, 1],
+                      stops: const [0.95, 1],
                     ),
               borderRadius: BorderRadius.circular(100),
               border: Border.all(
@@ -319,7 +319,6 @@ class SynthFlatDrawablebutton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var radius = 0.7 * height;
     return SizedBox(
       width: width,
       height: height,
