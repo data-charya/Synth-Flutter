@@ -157,9 +157,9 @@ class ElevatedView extends StatelessWidget {
   }
 }
 
-//FlatButton Component
-class SynthFlatbutton extends StatelessWidget {
-  SynthFlatbutton(
+//FlatDrawableButton Component
+class SynthFlatDrawable extends StatelessWidget {
+  SynthFlatDrawable(
       {Key? key,
       required this.text,
       required this.width,
@@ -288,9 +288,9 @@ class SynthFlatbutton extends StatelessWidget {
   }
 }
 
-//FlatDrawable Component
-class SynthFlatDrawablebutton extends StatelessWidget {
-  SynthFlatDrawablebutton(
+//FlatButton Component
+class SynthFlatbutton extends StatelessWidget {
+  SynthFlatbutton(
       {Key? key,
       required this.text,
       required this.width,
