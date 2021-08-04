@@ -109,10 +109,11 @@ class SynthSoftbutton extends StatelessWidget {
 //ElevatedView Component
 class ElevatedView extends StatelessWidget {
   const ElevatedView({
+    Key? key,
     required this.width,
     required this.height,
     required this.child,
-  });
+  }) : super(key: key);
   final double width;
   final double height;
   final Widget child;
