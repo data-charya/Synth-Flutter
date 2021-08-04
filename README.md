@@ -8,9 +8,8 @@
 <div align="center">
 
 
-![flutter](https://img.shields.io/badge/Flutter%20ver.-2.4.0-blue?style=for-the-badge&logo=flutter)
-[![GitHub license](https://img.shields.io/badge/license-MIT-red.svg?style=for-the-badge)](https://github.com/data-charya/Elemental/blob/master/LICENSE)
-[![Google Play](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://play.google.com/store/apps/details?id=io.shanwill.elemental)
+[![flutter](https://img.shields.io/badge/Flutter%20ver.-2.4.0-blue?style=for-the-badge&logo=flutter)](https://flutter.dev/)
+[![GitHub license](https://img.shields.io/badge/license-MIT-red.svg?style=for-the-badge)](https://github.com/data-charya/Synth-Flutter/blob/master/LICENSE)
 [![Flutter action](https://github.com/data-charya/Synth-Flutter/actions/workflows/dart.yml/badge.svg)](https://github.com/data-charya/Synth-Flutter/actions/workflows/dart.yml)
 
 </div>
